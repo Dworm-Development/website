@@ -16,7 +16,13 @@ function WhatIsShonen() {
       value: "2",
       percent: 0.2,
       pillColour: "#CCE005",
-    }
+    },
+    {
+      title: "Farming Accumulation",
+      value: "1",
+      percent: 0.1,
+      pillColour: "#63C5DA",
+    },
   ];
   return (
     <section className={`${styles.container}`} id="tokenomics">
@@ -31,13 +37,13 @@ function WhatIsShonen() {
           </div>
           <div className={styles.content__right_text}>
             <TokenomicsCircle
-              text={"580,000,000"}
+              text={"1,000,000,000"}
               className="max-w-[512px] md:min-w-[512px]"
             />
           </div>
         </div>
         <div className={styles.content__left}>
-          <h3 className="font-freude-reg freude-48">Tax: 4% Buy / 4% Sell</h3>
+          <h3 className="font-freude-reg freude-48">Tax: 5% Buy / 5% Sell</h3>
           <div className="flex flex-col gap-8">
             {taxes.map((item, index) => (
               <ProgressBar
