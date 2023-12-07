@@ -6,19 +6,19 @@ import Button from "../../common/nnbutton";
 function Features() {
   const features: { title: string; description: string }[] = [
     {
-      title: "Cleaner Wallets",
+      title: "Staking V1 (Early-Bird)",
       description:
-        "DWORM helps users clean up their crypto wallets by collecting all the leftover 'dog shit' tokens and giving them an opportunity to trade them for SHIB on the Shibarium network.",
+        "The Early-Bird is a simple staking Dapp that primarily encourages holding by rewarding long-term and loyal Dworm hodlers. Users earn more Dworm by depositing Dworm tokens into the staking pool. Early-Bird is a fixed APR pool and will expire at a determined date.",
     },
     {
-      title: "Community Focused",
+      title: "Staking V2 (Unleashed)",
       description:
-        "DWORM loves its community; hence, the governance can vote for the accepted leftover 'dog shit' tokens. DWORM also incentivises users to participate by offering a chance to win a reward. We can't forget DWORM's staking platform which also provides users with 333% APY in an unlocked pool allowing users to withdraw at any time.",
+        "The Unleashed pool is our advanced fixed and flexible pool, where users can select a package that works for them. Similar to Early-Bird, Unleash rewards loyal and long-term hodlers of Dworm. However, unlike Early-Bird, Unleash pool participants will be entered into a Raffle draw to take home the Jackpot reward.",
     },
     {
-      title: "Endless Value",
+      title: "Farm (Touch-Grass)",
       description:
-        "After each collection round, a percentage of the amount collected is collected to help increase the value of DWORM. That percentage may be used for buybacks, burns or sent to the treasury.",
+        "With Touch-Grass, users stake Dworm/ETH lp tokens to earn voting power. Creating Dworm/Eth LP deepens the Liquidity of Dworm to prevent massive price fluctuation, effectively ensuring a stable price movement for Dworm. Touch-Grass provides yet another way for our holders to earn more Dworm tokens. Farmers get vDworm proportional to their lp amount and lock duration (14 days, 30 days, three months, one year, up to 4eyars). vDworm is a non-transferable governance token used to vote on tokens that should be accepted for Deworming.",
     },
   ];
   return (
@@ -27,19 +27,21 @@ function Features() {
         <div className={`${styles.content} max-width`}>
           <div className="flex flex-col pt-16 items-center md:justify-start justify-center">
             <h2 className="font-freude-reg xl:freude-64 freude-48 uppercase">
-              Why Dworm?
+              What is Dworm?
             </h2>
             <p className="lato-20 w-full md:w-1/2 text-center text-justify">
-              With shibarium coming, the dogs will be abundant, but nobody is
-              thinking about the shit, yes, the dog shit, that all these coins
-              produce. That's where DWORM comes into play. We have developed a
-              system where we will collect all the leftover dog tokens in your
-              wallets from all networks to help you clean up your shit, in turn
-              giving you what can be used to trade for SHIB on the Shibarium
-              network. Let's not be those people that just leave dogshit all
-              over the park, fill up your bags and let's make this a cleaner
-              place.
+              Unlock the potential of Dworm's utility ecosystem: Dive into
+              Staking V1 & V2 for tailored rewards. Explore Pools for flexible
+              deposits and Farm (Touch-Grass) to stake LP tokens, ensuring
+              stability. As a vDworm holder, you wield influence, earning fee
+              rewards and shaping Dworm's dynamic future. Join us on the journey
+              of seamless and rewarding DeFi experiences.
             </p>
+          </div>
+          <div className="pt-16 text-center">
+            <h2 className="font-freude-reg xl:freude-64 freude-48 uppercase">
+              DWORM Utilities
+            </h2>
           </div>
           <div className={`${styles.features}`}>
             {features.map(({ title, description }, i) => (

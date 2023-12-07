@@ -2,31 +2,31 @@ import React, { FC } from "react";
 import styles from "./socials.module.css";
 import { ReactComponent as Twitter } from "../../../assets/icons/twitter.svg";
 import { ReactComponent as Telegram } from "../../../assets/icons/telegram.svg";
-import { ReactComponent as Medium } from "../../../assets/icons/medium.svg";
+import { ReactComponent as Gitbook } from "../../../assets/icons/gitbook.svg";
 
 const Socials: FC = () => {
   return (
     <div className={styles.social_links}>
       <a
-        href="https://twitter.com/DwormDev"
+        href="#"
         rel="noopener noreferrer"
         target="_blank"
       >
         <Twitter />
       </a>
       <a
-        href="https://t.me/dwormportalgroup"
+        href="#"
         rel="noopener noreferrer"
         target="_blank"
       >
         <Telegram />
       </a>
       <a
-        href="/#"
+        href="https://dworm-developments.gitbook.io/"
         rel="noopener noreferrer"
         target="_blank"
       >
-        <Medium />
+        <Gitbook />
       </a>
     </div>
   );
