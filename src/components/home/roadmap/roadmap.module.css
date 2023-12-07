@@ -22,7 +22,7 @@
 }
 
 .out__roadmap__container {
-  @apply lg:hidden flex flex-col gap-10;
+  @apply grid lg:grid-cols-3 gap-10;
   @apply pt-2 pb-14 mt-4;
 }
 
